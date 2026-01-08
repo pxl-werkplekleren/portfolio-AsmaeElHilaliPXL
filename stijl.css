@@ -100,3 +100,10 @@ footer{
     padding: 30px;
     margin: 20px 0;
 }
+
+
+.centered-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
