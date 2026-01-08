@@ -2,7 +2,31 @@
 
 <img src="assets/IMG_1745.jpg" style="transform: rotate(-90deg); max-width: 100%; height: auto;"/>
 
-main{
-    background-color: grey;}
+
+table{
+    width: 100%;
+    border-collapse: collapse;}
+
+tr {
+    border-bottom: 1px solid #444;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+td {
+    padding: 30px;
+    vertical-align: top;
+}
+
+.afbeelding-cell{
+
+    text-align: center;
+}
+
+.tekst-cell{
+    vertical-align: middle;
+}
 
 
