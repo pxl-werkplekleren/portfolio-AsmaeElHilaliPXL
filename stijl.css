@@ -83,3 +83,13 @@ footer{
 .links{text-align: left}
 .rechts{text-align: right}
 .midden{text-align: center}
+
+
+.role-box{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+    background-color: lightskyblue;
+    box-shadow: dimgrey;
+}
