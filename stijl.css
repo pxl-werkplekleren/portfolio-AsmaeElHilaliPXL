@@ -3,6 +3,9 @@
 <img src="assets/IMG_1745.jpg" style="transform: rotate(-90deg); max-width: 100%; height: auto;"/>
 
 
+
+
+
 table{
     width: 100%;
     border-collapse: collapse;}
@@ -29,4 +32,54 @@ td {
     vertical-align: middle;
 }
 
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    background-color: lightskyblue;
+    padding: 10px 0;
+}
 
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    display: flex;
+}
+
+nav li{}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 1.1em;
+}
+
+.section{
+    display: none;
+    padding: 35px;
+}
+
+.section:target{
+    display: block;
+}
+
+#home{
+    display: block;
+    text-align: center;
+    padding: 95px 35px;
+}
+
+footer{
+    display: block;
+    text-align: center;
+    padding: 2rem;
+    background-color: lightskyblue;
+    font-weight: bold;
+}
+
+.links{text-align: left}
+.rechts{text-align: right}
+.midden{text-align: center}
