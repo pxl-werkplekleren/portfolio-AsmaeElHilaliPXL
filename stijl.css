@@ -8,7 +8,9 @@
 
 table{
     width: 100%;
-    border-collapse: collapse;}
+    border-collapse: collapse;
+    background-color: white;
+                                                                                                 }
 
 tr {
     border-bottom: 1px solid #444;
@@ -36,7 +38,7 @@ nav{
     display: flex;
     justify-content: center;
     gap: 25px;
-    background-color: lightskyblue;
+    background-color: lightblue;
     padding: 10px 0;
 }
 
@@ -76,7 +78,7 @@ footer{
     display: block;
     text-align: center;
     padding: 2rem;
-    background-color: lightskyblue;
+    background-color: lightblue;
     font-weight: bold;
 }
 
@@ -86,22 +88,29 @@ footer{
 
 
 .role-box{
-    border: 1px solid lightskyblue;
+    border: 1px solid lightblue;
     border-radius: 10px;
     padding: 30px;
     margin: 20px 0;
-    background-color: lightskyblue;
+    background-color: lightblue;
     box-shadow: dimgrey;
 }
 
 .flex-box{
-    border: 7px solid lightskyblue;
-    background-color: lightskyblue;
+    border: 7px solid lightblue;
+    background-color: lightblue;
     border-radius: 10px;
     padding: 30px;
     margin: 20px 0;
 }
 
+.table-box{
+    border: 7px solid lightblue;
+    background-color: lightblue;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+}
 
 .centered-image{
     display: flex;
