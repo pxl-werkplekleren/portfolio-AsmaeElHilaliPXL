@@ -105,6 +105,14 @@ footer{
 }
 
 .table-box{
+    border: 7px solid white;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.tekst-box{
     border: 7px solid lightblue;
     background-color: lightblue;
     border-radius: 10px;
