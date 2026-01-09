@@ -59,12 +59,17 @@ nav a{
     font-size: 1.1em;
 }
 
-.section{
+nav a:hover{
+    color:darkgrey;
+    text-decoration: underline;
+}
+
+.sectie{
     display: none;
     padding: 35px;
 }
 
-.section:target{
+.sectie:target{
     display: block;
 }
 
@@ -82,8 +87,19 @@ footer{
     font-weight: bold;
 }
 
+.voettekst .rechts a{
+    color: black;
+    text-decoration: none;
+}
 
-.rechts{text-align: right}
+.voettekst .rechts a:hover{
+    color: darkgrey;
+    text-decoration: underline;
+}
+
+
+.rechts{text-align: right;}
+
 
 
 
@@ -145,6 +161,16 @@ font-size: 25px}
 h1{font-size: 50px}
 .naam{color:lightblue;
 font-size: 35px}
+
+
+#home{
+    padding-bottom: 600px;
+}
+
+#home{
+    margin-top: 150px;
+    text-align: center;
+}
 
 
 
