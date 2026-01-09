@@ -85,7 +85,7 @@ footer{
     display: block;
     text-align: center;
     padding: 2rem;
-    background-color: lightblue;
+
     font-weight: bold;
 }
 
@@ -129,6 +129,7 @@ footer{
     padding: 30px;
     margin: 20px 0;
 }
+
 
 .tekst-box{
     border: 7px solid lightblue;
