@@ -92,6 +92,7 @@ footer{
 .voettekst .rechts a{
     color: black;
     text-decoration: none;
+    font-size: 17px;
 }
 
 .voettekst .rechts a:hover{
@@ -139,7 +140,9 @@ footer{
     margin: 20px 0;
 }
 
-
+.wit{
+    background-color: white;
+}
 
 .centered-image{
     display: flex;
